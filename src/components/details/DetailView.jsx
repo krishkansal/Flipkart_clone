@@ -17,7 +17,8 @@ const Container = styled (Grid)(({theme})=>({
   background:'#FFFFFF',
   display:'flex',
   [theme.breakpoints.down('md')]:{
-    margin:0
+    margin:0,
+    padding:'10px'
   }
 
 }));
