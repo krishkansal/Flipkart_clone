@@ -34,7 +34,7 @@ const ProductDetail = ({product}) => {
     const adURL = 'https://rukminim1.flixcart.com/lockin/774/185/images/CCO__PP_2019-07-14.png?q=50';
     return (
     <>
-    <Typography>{product.title.longTitle}</Typography>
+            <Typography>{product.title.longTitle}</Typography>
             <Typography style={{marginTop:5,color:'#878787',fontSize:14}}>
               8 Rating and & 1 Review
             <Box component="span"><img src={fassured} style={{width:77 , marginLeft:20}} alt=""/></Box>

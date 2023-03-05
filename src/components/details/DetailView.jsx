@@ -18,12 +18,13 @@ const Container = styled (Grid)(({theme})=>({
   display:'flex',
   [theme.breakpoints.down('md')]:{
     margin:0,
-    padding:'10px'
+    
   }
 
 }));
 const RightContainer=styled(Grid)`
   margin-top:50px;
+  padding-left:20px;
   
 
 `

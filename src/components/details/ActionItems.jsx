@@ -15,15 +15,17 @@ import { post } from "../../Utils/paytm";
 
 const LeftContainer = styled(Box)(({theme})=>({
     minWidth:'40%',
-    padding:'40px 20px 0 80px',
-    [theme.breakpoints.down('lg')]:{
+  
+    padding:'40px 0 0 80px',
+    [theme.breakpoints.down('md')]:{
       padding:'20px 40px'
     }
   }));
 
 const Image = styled('img')({
     width:"95%",
-   padding:'15px'
+   padding:'15px',
+  
 })
 
 const StyleButton=styled(Button)(({theme})=>({

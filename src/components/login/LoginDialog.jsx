@@ -7,6 +7,8 @@ import {DataContext} from '../../context/DataProvider';
 const Component = styled(Box)`
     height:70vh;
     width:90vh;
+    padding: 0;
+    padding-top: 0;
 `
 const Image = styled(Box)`
     background:#2874f0 url(https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/login_img_c4a81e.png) center 85% no-repeat;
@@ -25,6 +27,7 @@ const Wrapper=styled(Box)`
     flex-direction:column;
     padding: 25px 35px;
     flex:1;
+    overflow: auto;
     & > div,& > button,& > p{
         margin-top:20px;
     }
@@ -52,7 +55,8 @@ const Text = styled(Typography)`
     color:#878787;
 `
 const CreateAccount=styled(Typography)`
-    font-size:12px;
+    margin: auto 0 5px 0;
+    font-size:14px;
     text-align:center;
     color:#2874f0;
     font-weight:600;
